@@ -19,7 +19,26 @@ simple way of dealing with cluster support added on v0.6 of NodeJS.
     });
     rack.start();
 
-## Events
+## Global Methods
+
+### .create()
+
+Create a new Rack.
+
+### .cores()
+
+Returns the number of detected CPU on your machine. This is
+used by Rack.start() if you do not specify the number of workers
+you want - it will use the number of CPU you have.
+
+You can use this to start a multiple of workers based on CPU count.
+
+    var cluster = require("rack"),
+        rack = cluster.create();
+    
+    rack.start(cluster.cores() * 2);
+
+## Rack Events
 
 ### master-start(rack)
 
@@ -45,7 +64,7 @@ This happens when a workers die too often.
 This happens when a worker sends a message to the master and
 vice-versa.
 
-## Methods (on the `rack` object in the usage example above)
+## Rack Methods
 
 ### .start(n)
 
