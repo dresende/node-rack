@@ -21,6 +21,6 @@ function startWorker(worker) {
 		console.log("[%d] %s", worker.pid, req.url);
 
 		res.writeHead(200, { "Content-Type": "text/plain" });
-		res.end("Your requested " + req.url);
+		res.end("You requested " + req.url);
 	}).listen(1337);
 }
