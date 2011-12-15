@@ -12,7 +12,7 @@
 	"directories": {
 		            "lib": "./lib"
 	},
-	       "main": "./lib/index",
+	       "main": "./lib/rack",
 	   "licenses": [{
 		   "type": "MIT",
 		    "url": "http://github.com/dresende/node-rack/raw/master/LICENSE"
