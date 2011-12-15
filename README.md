@@ -9,6 +9,8 @@ simple way of dealing with cluster support added on v0.6 of NodeJS.
 
 ## Usage
 
+Don't forget to check the examples folder. Every available functionality is there.
+
     var rack = require("rack").create();
     
     rack.on("master-start", function () {
