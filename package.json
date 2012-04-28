@@ -1,6 +1,6 @@
 {
 	       "name": "rack",
-	    "version": "0.1.4",
+	    "version": "0.1.5",
 	"description": "NodeJS Cluster Abstraction Layer",
 	   "keywords": [ "cluster" ],
 	     "author": "Diogo Resende <dresende@thinkdigital.pt>",
