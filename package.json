@@ -1,20 +1,23 @@
 {
-	       "name": "rack",
-	    "version": "0.1.4",
-	"description": "NodeJS Cluster Abstraction Layer",
-	   "keywords": [ "cluster" ],
-	     "author": "Diogo Resende <dresende@thinkdigital.pt>",
-	    "engines": { "node": ">= 0.6.0" },
-	 "repository": {
+	        "name": "rack",
+	     "version": "0.1.5",
+	 "description": "NodeJS Cluster Abstraction Layer",
+	    "keywords": [ "cluster" ],
+	      "author": "Diogo Resende <dresende@thinkdigital.pt>",
+	"contributors": [{
+	               "name": "Oliver Leics"
+	}],
+	     "engines": { "node": ">= 0.6.0" },
+	  "repository": {
 		           "type": "git",
 		            "url": "http://github.com/dresende/node-rack.git"
 	},
-	"directories": {
+	 "directories": {
 		            "lib": "./lib"
 	},
-	       "main": "./lib/rack",
-	   "licenses": [{
-		   "type": "MIT",
-		    "url": "http://github.com/dresende/node-rack/raw/master/LICENSE"
+	        "main": "./lib/rack",
+	    "licenses": [{
+	        "type": "MIT",
+	         "url": "http://github.com/dresende/node-rack/raw/master/LICENSE"
 	}]
 }
